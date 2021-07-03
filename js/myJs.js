@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: ' Anh Hiền Chào Châm Bướng Nhé..:))',
-        text: 'theo chân anh và trả lời thật lòng nhé...hí hí',
+        title: ' Hee luu Bé nèee)',
+        text: 'anh có điều muốn nói với bé, bé trả lời thật lòng nhóa :3',
         imageUrl: '',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Hổng từ chối đượccccccccc  ";
+    var text = " Hem từ chối được đâu, thương bé..  ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,11 +96,11 @@ $('#yes').click(function() {
     var audio = new Audio('../sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nếu bùn quá thì nên đi nhậu nhớ, anh mày nhận kèo...hihi',
+        title: 'Bé muốn đi cùng với anh hânnn',
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Nhập đi, chờ chi :3'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Bé có điều gì muốn nói hongg :3'>",
         background: '#fff url("../img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -109,7 +109,7 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Không Biết Nhậu Nhé...:((",
+        cancelButtonText: "Không Biết Nữaa..:((",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
@@ -119,10 +119,10 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: 'Ô cơ lun <3',
                 background: '#fff url("../img/iput-bg.jpg")',
-                title: 'Cho Anh cái hẹn Châm nhớ ớ ớ',
-                text: "Bấm xong thì nhớ bấm inbox nhaaaa",
+                title: 'Anh Thương Bé Oanhhhh',
+                text: "Bấm xong thì nhớ bấm inbox nhaaaa, mãiii Iuuu",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/tipauu.16.09/';
