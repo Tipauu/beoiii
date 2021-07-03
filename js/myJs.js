@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: ' Hee luu Bé nèee)',
+        title: ' Hee luu Bé nèee',
         text: 'anh có điều muốn nói với bé, bé trả lời thật lòng nhóa :3',
         imageUrl: '',
         imageWidth: 300,
@@ -100,7 +100,7 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Bé có điều gì muốn nói hongg :3'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Bé có điều gì muốn nói thêm hongg :3'>",
         background: '#fff url("../img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
