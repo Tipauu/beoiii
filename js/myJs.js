@@ -122,7 +122,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'Ô cơ lun <3',
                 background: '#fff url("../img/iput-bg.jpg")',
                 title: 'Anh Thương Bé Oanhhhh',
-                text: "Bấm xong thì nhớ bấm inbox nhaaaa, mãiii Iuuu",
+                text: "Bấm xong thì nhớ inbox nhaaaa, mãiii Iuuu",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/tipauu.16.09/';
